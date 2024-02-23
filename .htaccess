@@ -15,6 +15,6 @@ RewriteRule ^(.*)$ /$1?%1%2 [R=301,L]
 </IfModule>
 
 Options All -Indexes
-ErrorDocument 403 /AllProject/layouts/403-page.php
-ErrorDocument 404 /AllProject/layouts/404-page.php
-ErrorDocument 500 /AllProject/layouts/500-page.php
+ErrorDocument 403 /UNIBOOKSTORE/layouts/403-page.php
+ErrorDocument 404 /UNIBOOKSTORE/layouts/404-page.php
+ErrorDocument 500 /UNIBOOKSTORE/layouts/500-page.php
