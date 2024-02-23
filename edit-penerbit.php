@@ -5,6 +5,14 @@ $judulLaman = "Edit Buku";
 
 $idPenerbit = $_GET['id_penerbit'];
 $query = tampilDataFirst("SELECT * FROM tabel_penerbit WHERE id_penerbit = '$idPenerbit'");
+
+if ($query) {
+    // Jangan lakukan apapun.
+} else {
+    header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found", true, 404);
+    header("Location: layouts/404-page");
+    die;
+}
 ?>
 <?php require __DIR__ . "/layouts/resources.php"; ?>
 
