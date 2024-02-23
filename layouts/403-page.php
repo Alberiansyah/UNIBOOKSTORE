@@ -1,4 +1,7 @@
-<?php require __DIR__ . "/../functions/functions.php"; ?>
+<?php require __DIR__ . "/../koneksi/koneksi.php";
+
+header($_SERVER["SERVER_PROTOCOL"] . " 403 Forbidden", true, 403);
+?>
 <!DOCTYPE html>
 <html lang="en">
 

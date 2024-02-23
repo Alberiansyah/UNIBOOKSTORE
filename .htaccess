@@ -18,3 +18,4 @@ Options All -Indexes
 ErrorDocument 403 /UNIBOOKSTORE/layouts/403-page.php
 ErrorDocument 404 /UNIBOOKSTORE/layouts/404-page.php
 ErrorDocument 500 /UNIBOOKSTORE/layouts/500-page.php
+ErrorDocument 503 /UNIBOOKSTORE/layouts/503-page.php

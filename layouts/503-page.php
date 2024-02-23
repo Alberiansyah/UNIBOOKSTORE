@@ -1,4 +1,7 @@
-<?php require __DIR__ . "/../functions/functions.php"; ?>
+<?php require __DIR__ . "/../koneksi/koneksi.php";
+
+header($_SERVER["SERVER_PROTOCOL"] . " 503 Service Unavailable", true, 503);
+?>
 <!DOCTYPE html>
 <html lang="en">
 

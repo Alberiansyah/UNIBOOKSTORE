@@ -1,4 +1,7 @@
-<?php require __DIR__ . "/../functions/functions.php"; ?>
+<?php require __DIR__ . "/../koneksi/koneksi.php";
+
+header($_SERVER["SERVER_PROTOCOL"] . " 500 Internal Server Error", true, 500);
+?>
 <!DOCTYPE html>
 <html lang="en">
 

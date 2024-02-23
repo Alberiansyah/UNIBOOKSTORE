@@ -1,4 +1,7 @@
-<?php require __DIR__ . "/../functions/functions.php"; ?>
+<?php require __DIR__ . "/../koneksi/koneksi.php";
+
+header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found", true, 404);
+?>
 <html lang="en">
 
 <head>
